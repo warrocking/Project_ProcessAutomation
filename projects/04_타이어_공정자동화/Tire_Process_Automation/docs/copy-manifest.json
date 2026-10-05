@@ -1,0 +1,40 @@
+{
+  "source_commit": "3194623a51019d419ba0b6a0af3133bc933d4df6",
+  "copies": [
+    {
+      "source": "RobotStudio/project.mod",
+      "destination": "project.mod",
+      "sha256": "da2fe3b5071ff7e515e31b9efbe7e9802f0b065cf998a5982b56b3c8fe96bf79"
+    },
+    {
+      "source": "RobotStudio/DI_DO_Signals.csv",
+      "destination": "DI_DO_Signals.csv",
+      "sha256": "69d85373a446002f2b823a26811e7c69382433ea8818e1ab871151c1a073be7c"
+    },
+    {
+      "source": "RobotStudio/PLC_ServerConnect/main.py",
+      "destination": "pc_client/main.py",
+      "sha256": "781ebeaae0ee0b29ffd79f25baf45150feef1fcbd5ffd79c4e1c6ebef1e09562"
+    },
+    {
+      "source": "RobotStudio/PLC_ServerConnect/tcp_connection.py",
+      "destination": "pc_client/tcp_connection.py",
+      "sha256": "d0cb14dd01c22e073f1398138e415ed9e3e0f271959a66b8939875016a24fb4f"
+    },
+    {
+      "source": "RobotStudio/PLC_ServerConnect/data_format.py",
+      "destination": "pc_client/data_format.py",
+      "sha256": "3d34d9079ecc8578a1389097def1e1315a228c5d8d9b4024c9c4c37c8baa8670"
+    },
+    {
+      "source": "RobotStudio/PLC_ServerConnect/database.json",
+      "destination": "pc_client/database.json",
+      "sha256": "655577026f14bd07f130e78b83a43139f44c44437cc915b15bbc2b3dccd2a4bb"
+    },
+    {
+      "source": "RobotStudio/PLC_ServerConnect/requirements.txt",
+      "destination": "pc_client/requirements.txt",
+      "sha256": "c6cd78e2de13f26c6621e2da4a8c121edb1efba0e02694845e7f45057b4e226b"
+    }
+  ]
+}

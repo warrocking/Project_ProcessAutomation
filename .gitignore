@@ -1,0 +1,23 @@
+# 실행 중 생성되는 파일
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+.pytest_cache/
+
+# 개인 환경 및 IDE
+.venv/
+.env
+.vscode/
+.idea/
+
+# 빌드 결과
+bin/
+obj/
+build/
+dist/
+
+# 운영 중 생성되는 TurtleBot 데이터
+**/data/logs/
+**/data/images/
+**/data/maps/
