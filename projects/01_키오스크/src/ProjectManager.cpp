@@ -51,7 +51,7 @@ bool HasAnyPermission(const login::AuthInfo &auth, const std::vector<std::string
 void ShowNoPermissionCountdown();
 static std::string ExtractDate(const std::string &dateTime);
 static std::string ExtractMonth(const std::string &dateTime);
-static const std::string kResourcePath = "C:\\Study\\CPP\\Project_Kiosk\\Resource";
+static const std::string kResourcePath = "resources";
 int main()
 {
     // 입출력을 빠르게 만들기 위한 설정

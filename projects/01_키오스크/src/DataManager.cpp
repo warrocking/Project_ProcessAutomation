@@ -16,8 +16,9 @@
 namespace data
 {
     // 프로젝트 리소스 경로(JSON 위치)
-    const std::string path_AccessControl = "C:\\Study\\CPP\\Project_Kiosk\\Resource\\access_control.json";
-    const std::string path_MenuData = "C:\\Study\\CPP\\Project_Kiosk\\Resource\\menu.json";
+    // 프로젝트 루트에서 실행할 때 사용하는 상대 경로입니다.
+    const std::string path_AccessControl = "resources/access_control.json";
+    const std::string path_MenuData = "resources/menu.json";
 
     // 권한 샘플 JSON 생성 (초기 세팅용)
     json CreateSampleJson()

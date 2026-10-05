@@ -71,7 +71,7 @@ namespace login
         // LoginError.json에 누적 기록 추가
         void AppendLoginErrorRecord(const std::vector<IDPW> &attempts)
         {
-            const string resourcePath = "C:\\Study\\CPP\\Project_Kiosk\\Resource";
+            const string resourcePath = "resources";
             const string fullPath = data::BuildJsonPath(resourcePath, "LoginError.json");
 
             data::json root;
